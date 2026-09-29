@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maruf 3D | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0f19;
+            color: white;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #252b3a;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #60a5fa;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(38px, 7vw, 72px);
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #60a5fa;
+        }
+
+        .hero p {
+            color: #aab3c5;
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 600px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 28px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .portfolio {
+            padding: 60px 8%;
+            text-align: center;
+            background: #111827;
+        }
+
+        .portfolio h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .portfolio p {
+            color: #aab3c5;
+            line-height: 1.8;
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            color: #8b95a8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">MARUF 3D</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Hello, I'm <span>Maruf</span></h1>
+
+        <p>
+            Beginner 3D Artist & 3D Modeler.
+            Welcome to my personal portfolio website.
+            My 3D projects will be showcased here soon.
+        </p>
+
+        <a href="#portfolio" class="button">
+            Explore My Work
+        </a>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>My 3D Portfolio</h2>
+
+        <p>
+            My 3D models and projects will be added here soon.
+            Stay tuned!
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Maruf 3D. All rights reserved.
+    </footer>
+
+</body>
+</html>
